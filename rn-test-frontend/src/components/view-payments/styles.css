@@ -1,0 +1,84 @@
+.view-payments {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.payments-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.payment-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  border: 1px solid #4a4a4a;
+  border-radius: 8px;
+  background-color: #2a2a2a;
+  transition: background-color 0.2s;
+}
+
+.payment-item:hover {
+  background-color: #333333;
+}
+
+.payment-id {
+  font-weight: 500;
+  color: #e5e7eb;
+}
+
+.status-pill {
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border: 1px solid transparent;
+}
+
+.status-pending {
+  background-color: #451a03;
+  color: #fcd34d;
+  border-color: #92400e;
+}
+
+.status-in-progress {
+  background-color: #1e3a8a;
+  color: #93c5fd;
+  border-color: #3b82f6;
+}
+
+.status-confirmed {
+  background-color: #064e3b;
+  color: #6ee7b7;
+  border-color: #10b981;
+}
+
+.status-failed {
+  background-color: #7f1d1d;
+  color: #fca5a5;
+  border-color: #ef4444;
+}
+
+.no-payments {
+  text-align: center;
+  color: #9ca3af;
+  font-style: italic;
+  padding: 40px 20px;
+  background-color: #1f1f1f;
+  border-radius: 8px;
+  border: 1px solid #4a4a4a;
+}
+
+.loading {
+  text-align: center;
+  color: #9ca3af;
+  padding: 20px;
+  background-color: #1f1f1f;
+  border-radius: 8px;
+  border: 1px solid #4a4a4a;
+}
